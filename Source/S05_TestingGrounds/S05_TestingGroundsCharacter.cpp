@@ -88,7 +88,7 @@ void AS05_TestingGroundsCharacter::SetupPlayerInputComponent(class UInputCompone
 	InputComponent->BindAxis("TurnRate", this, &AS05_TestingGroundsCharacter::TurnAtRate);
 	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	InputComponent->BindAxis("LookUpRate", this, &AS05_TestingGroundsCharacter::LookUpAtRate);
-}
+}	
 
 void AS05_TestingGroundsCharacter::OnFire()
 {
