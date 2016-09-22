@@ -6,6 +6,6 @@ public class S05_TestingGrounds : ModuleRules
 {
 	public S05_TestingGrounds(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "GameplayTasks" });
 	}
 }
