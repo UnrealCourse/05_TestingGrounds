@@ -12,7 +12,26 @@ Ben Tristem
 Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to find out more about the course, and how we build these assets step-by-step.
 
 ## Lecture List
-TG1 Testing Grounds Introduction
-TG2 Testing Grounds GDD
-TG3 Using Git LFS (Large File Support)
-TG4 Markdown & Marketing
+* TG1 Testing Grounds Introduction.cmproj
+* TG2 Testing Grounds GDD.cmproj
+* TG3 Using Git LFS (Large File Support).cmproj
+* TG4 Markdown & Marketing.cmproj
+* TG5 Use git clean to Revert Project.cmproj
+* TG6 First Person Character Overview.cmproj
+* TG8 The Third Person Character.cmproj
+* TG9 Introducing AI Behaviour Trees.cmproj
+* TG10 Introducing AI Blackboard Data.cmproj
+* TG11 Target Points and Patrol Routes.cmproj
+* TG12 Using Any Actor for Waypoints.cmproj
+* TG13 Options for Grouping Actors.cmproj
+* TG14 Blueprint Behaviour Tree Tasks.cmproj
+* TG15 Modular Arithmetic & Cycles.cmproj
+* TG16 Performance Profiling 101.cmproj
+* TG17 C++ AI Behaviour Tree Tasks.cmproj
+* TG18 Reading Blackboard Data in C++.cmproj
+* TG19 The Consequences of Inheritance.cmproj
+* TG20 Converting Blueprint to C++.cmproj
+* TG21 Composition over Inheritance.cmproj
+* TG21b Talking Head - Recap & What Next.cmproj
+* TG22 How to Delete a C++ Class.cmproj
+* TG23 Instanced Materials.cmproj
