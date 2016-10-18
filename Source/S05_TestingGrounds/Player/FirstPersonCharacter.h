@@ -1,12 +1,12 @@
 // Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/Character.h"
-#include "S05_TestingGroundsCharacter.generated.h"
+#include "FirstPersonCharacter.generated.h"
 
 class UInputComponent;
 
 UCLASS(config=Game)
-class AS05_TestingGroundsCharacter : public ACharacter
+class AFirstPersonCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -26,7 +26,7 @@ class AS05_TestingGroundsCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FirstPersonCameraComponent;
 public:
-	AS05_TestingGroundsCharacter();
+	AFirstPersonCharacter();
 
 	virtual void BeginPlay();
 
@@ -44,7 +44,7 @@ public:
 
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
-	TSubclassOf<class AS05_TestingGroundsProjectile> ProjectileClass;
+	TSubclassOf<class ABallProjectile> ProjectileClass;
 
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
