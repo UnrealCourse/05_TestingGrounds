@@ -35,4 +35,15 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG21b Talking Head - Recap & What Next.cmproj
 * TG22 How to Delete a C++ Class.cmproj
 * TG23 Instanced Materials.cmproj
-
+* TG24 Introducing AI Perception.cmproj
+* TG25 OnTargetPerceptionUpdated Event.cmproj
+* TG26 AI Hearing Perception in Unreal.cmproj
+* TG27 The Animation Starter Pack.cmproj
+* TG28 Changing a Character’s Animation.cmproj
+* TG29 Customising a Character Blueprint.cmproj
+* TG30 Sub Behaviour Trees.cmproj
+* TG31 Introducing Sam.cmproj
+* TG31 Talking Head - Introducing Sam.cmproj
+* TG32 Simplifying Our Project.cmproj
+* TG33 Renaming & Moving CPP.cmproj
+* TG34 Solution- Renaming & Moving CPP.cmproj
