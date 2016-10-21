@@ -47,3 +47,8 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG32 Simplifying Our Project.cmproj
 * TG33 Renaming & Moving CPP.cmproj
 * TG34 Solution- Renaming & Moving CPP.cmproj
+* TG35 Holding a Gun with Skeletal Sockets.cmproj
+* TG36 Animation BP & State Machines.cmproj
+* TG37 Aiming Blend Spaces Offsets.cmproj
+* TG38 Rotating with SetFocalPoint().cmproj
+* TG39 Character Movement vs Rotation.cmproj
