@@ -52,3 +52,7 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG37 Aiming Blend Spaces Offsets.cmproj
 * TG38 Rotating with SetFocalPoint().cmproj
 * TG39 Character Movement vs Rotation.cmproj
+* TG40 Control Rotation for Aim.cmproj
+* TG41 Behaviour Tree Decorators.cmproj
+* TG42 Behaviour Tree Services.cmproj
+* TG43 Tweaking AI Behaviour.cmproj
