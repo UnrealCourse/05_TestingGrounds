@@ -53,3 +53,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG38 Offset Animations.cmproj
 * TG39 Aiming Blend Spaces Offsets.cmproj
 * TG40 Rotating with SetFocalPoint().cmproj
+* TG41 Character Movement vs Rotation.cmproj
