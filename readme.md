@@ -48,3 +48,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG33 Renaming & Moving CPP.cmproj
 * TG34 Solution- Renaming & Moving CPP.cmproj
 * TG35 Holding a Gun with Skeletal Sockets.cmproj
+* TG36 Animation BP & State Machines.cmproj
