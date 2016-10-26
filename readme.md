@@ -51,3 +51,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG36 Animation BP & State Machines.cmproj
 * TG37 Movement Blend Spaces.cmproj
 * TG38 Offset Animations.cmproj
+* TG39 Aiming Blend Spaces Offsets.cmproj
