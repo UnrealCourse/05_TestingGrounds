@@ -12,49 +12,50 @@ Ben Tristem
 Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to find out more about the course, and how we build these assets step-by-step.
 
 ## Lecture List
-* TG1 Testing Grounds Introduction.cmproj
-* TG2 Testing Grounds GDD.cmproj
-* TG3 Using Git LFS (Large File Support).cmproj
-* TG4 Markdown & Marketing.cmproj
-* TG5 Use git clean to Revert Project.cmproj
-* TG6 First Person Character Overview.cmproj
-* TG8 The Third Person Character.cmproj
-* TG9 Introducing AI Behaviour Trees.cmproj
-* TG10 Introducing AI Blackboard Data.cmproj
-* TG11 Target Points and Patrol Routes.cmproj
-* TG12 Using Any Actor for Waypoints.cmproj
-* TG13 Options for Grouping Actors.cmproj
-* TG14 Blueprint Behaviour Tree Tasks.cmproj
-* TG15 Modular Arithmetic & Cycles.cmproj
-* TG16 Performance Profiling 101.cmproj
-* TG17 C++ AI Behaviour Tree Tasks.cmproj
-* TG18 Reading Blackboard Data in C++.cmproj
-* TG19 The Consequences of Inheritance.cmproj
-* TG20 Converting Blueprint to C++.cmproj
-* TG21 Composition over Inheritance.cmproj
-* TG21b Talking Head - Recap & What Next.cmproj
-* TG22 How to Delete a C++ Class.cmproj
-* TG23 Instanced Materials.cmproj
-* TG24 Introducing AI Perception.cmproj
-* TG25 OnTargetPerceptionUpdated Event.cmproj
-* TG26 AI Hearing Perception in Unreal.cmproj
-* TG27 The Animation Starter Pack.cmproj
-* TG28 Changing a Character’s Animation.cmproj
-* TG29 Customising a Character Blueprint.cmproj
-* TG30 Sub Behaviour Trees.cmproj
-* TG31 Introducing Sam.cmproj
-* TG31 Talking Head - Introducing Sam.cmproj
-* TG32 Simplifying Our Project.cmproj
-* TG33 Renaming & Moving CPP.cmproj
-* TG34 Solution- Renaming & Moving CPP.cmproj
-* TG35 Holding a Gun with Skeletal Sockets.cmproj
-* TG36 Animation BP & State Machines.cmproj
-* TG37 Movement Blend Spaces.cmproj
-* TG38 Offset Animations.cmproj
-* TG39 Aiming Blend Spaces Offsets.cmproj
-* TG40 Rotating with SetFocalPoint().cmproj
-* TG41 Character Movement vs Rotation.cmproj
-* TG42 Control Rotation for Aim.cmproj
-* TG43 Behaviour Tree Decorators.cmproj
-* TG44 Behaviour Tree Services.cmproj
-* TG45 Tweaking AI Behaviour.cmproj
+* TG1 Testing Grounds Introduction
+* TG2 Testing Grounds GDD
+* TG3 Using Git LFS (Large File Support)
+* TG4 Markdown & Marketing
+* TG5 Use git clean to Revert Project
+* TG6 First Person Character Overview
+* TG8 The Third Person Character
+* TG9 Introducing AI Behaviour Trees
+* TG10 Introducing AI Blackboard Data
+* TG11 Target Points and Patrol Routes
+* TG12 Using Any Actor for Waypoints
+* TG13 Options for Grouping Actors
+* TG14 Blueprint Behaviour Tree Tasks
+* TG15 Modular Arithmetic & Cycles
+* TG16 Performance Profiling 101
+* TG17 C++ AI Behaviour Tree Tasks
+* TG18 Reading Blackboard Data in C++
+* TG19 The Consequences of Inheritance
+* TG20 Converting Blueprint to C++
+* TG21 Composition over Inheritance
+* TG21b Talking Head - Recap & What Next
+* TG22 How to Delete a C++ Class
+* TG23 Instanced Materials
+* TG24 Introducing AI Perception
+* TG25 OnTargetPerceptionUpdated Event
+* TG26 AI Hearing Perception in Unreal
+* TG27 The Animation Starter Pack
+* TG28 Changing a Character’s Animation
+* TG29 Customising a Character Blueprint
+* TG30 Sub Behaviour Trees
+* TG31 Introducing Sam
+* TG31 Talking Head - Introducing Sam
+* TG32 Simplifying Our Project
+* TG33 Renaming & Moving CPP
+* TG34 Solution- Renaming & Moving CPP
+* TG35 Holding a Gun with Skeletal Sockets
+* TG36 Animation BP & State Machines
+* TG37 Movement Blend Spaces
+* TG38 Offset Animations
+* TG39 Aiming Blend Spaces Offsets
+* TG40 Rotating with SetFocalPoint()
+* TG41 Character Movement vs Rotation
+* TG42 Control Rotation for Aim
+* TG43 Behaviour Tree Decorators
+* TG44 Behaviour Tree Services
+* TG45 Tweaking AI Behaviour
+* TG46 Debugging AI Behaviour
