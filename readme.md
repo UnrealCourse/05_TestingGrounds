@@ -59,3 +59,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG44 Behaviour Tree Services
 * TG45 Tweaking AI Behaviour
 * TG46 Debugging AI Behaviour
+* TG47 Refactoring to a Gun Actor
