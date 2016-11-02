@@ -61,3 +61,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG46 Debugging AI Behaviour
 * TG47 Refactoring to a Gun Actor
 * TG48 Attaching Actors to Components
+* TG49 Configuring the Gun
