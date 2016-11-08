@@ -64,3 +64,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG49 Configuring the Gun
 * TG50 Moving Files from LFS to Git
 * TG51 To LFS or Not to LFS?
+* TG52 Child Actor Components
