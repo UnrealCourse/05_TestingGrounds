@@ -66,3 +66,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG51 To LFS or Not to LFS?
 * TG52 Child Actor Components
 * TG53 Inverse Kinematics with Animations
+* TG54 Comparing Blueprints with Diffs
