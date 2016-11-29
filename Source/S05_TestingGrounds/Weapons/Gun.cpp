@@ -39,7 +39,7 @@ void AGun::Tick( float DeltaTime )
 
 void AGun::OnFire()
 {
-	// try and fire a projectile
+	// Try and fire a projectile
 	if (ProjectileClass == NULL)
 	{
 		return;
@@ -51,17 +51,17 @@ void AGun::OnFire()
 	UWorld* const World = GetWorld();
 	if (World != NULL)
 	{
-		// spawn the projectile at the muzzle
+		// Spawn the projectile at the muzzle
 		World->SpawnActor<ABallProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
 	}
 
-	// try and play the sound if specified
+	// Try and play the sound if specified
 	if (FireSound != NULL)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 	}
 
-	// try and play a firing animation if specified
+	// Try and play a firing animation if specified
 	if (FireAnimation != NULL)
 	{
 		// Get the animation object for the arms mesh
