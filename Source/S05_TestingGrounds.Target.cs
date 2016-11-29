@@ -10,10 +10,9 @@ public class S05_TestingGroundsTarget : TargetRules
 		Type = TargetType.Game;
 	}
 
-	//
-	// TargetRules interface.
-	//
-
+	/**
+	* TargetRules interface.
+	*/
 	public override void SetupBinaries(
 		TargetInfo Target,
 		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
