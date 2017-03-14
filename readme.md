@@ -68,3 +68,24 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG52b Introduction to Inverse Kinematics
 * TG53 Inverse Kinematics with Animations
 * TG54 Comparing Blueprints with Diffs
+* TG55 Boolean Blending for Aim States
+* TG56 Adding Firing Animations
+* TG57 Animation Notify Events
+* TG58 Taking Damage in Blueprint
+* TG59 Death Animations and Refactors
+* TG60 Switching 1st and 3rd Person
+* TG61 Owner Invisible Meshes
+* TG62 Separating Firing from Gun Meshes
+* TG63 Aiming Our 1st Person Camera
+* TG64 Architecture of Infinite Runners
+* TG65 Spawning Terrain in the GameMode
+* TG66 Level Gating for Testing Grounds
+* TG67 Swapping Materials in Blueprint
+* TG68 Garbage Collecting Previous Tiles
+* TG69 Merging Our TP and FP Files
+* TG70 Hit vs Overlap Events
+* TG71 Dynamically Calculating NavMesh
+* TG72 Keep It Simple Stupid
+* TG73 Parallel Behaviour Tree Tasks
+* TG74 Custom BT Tasks and Decorators
+* TG75 External Build Data in 4.14+
