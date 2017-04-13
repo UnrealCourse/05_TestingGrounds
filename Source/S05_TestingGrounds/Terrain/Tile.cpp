@@ -81,7 +81,9 @@ void ATile::SpawnAI(TSubclassOf<APawn> ToSpawn, FSpawnPoint SpawnPoint, float He
 	if (Spawned != nullptr) {
 		Spawned->SpawnDefaultController();
 		Spawned->SetActorRelativeLocation(SpawnPoint.Location);
+		Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
 		Spawned->SetActorRotation(FRotator(0, SpawnPoint.Rotation, 0));
+		Spawned->Tags.Add(FName("Enemy"));
 	}
 }
 
