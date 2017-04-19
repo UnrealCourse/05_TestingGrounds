@@ -3,6 +3,7 @@
 #include "S05_TestingGrounds.h"
 #include "Tile.h"
 #include "DrawDebugHelpers.h"
+#include "ActorPool.h"
 
 // Sets default values
 ATile::ATile()
@@ -11,6 +12,13 @@ ATile::ATile()
 	PrimaryActorTick.bCanEverTick = true;
 
 }
+
+void ATile::SetPool(UActorPool* InPool)
+{
+	UE_LOG(LogTemp, Warning, TEXT("[%s] Setting Pool %s"), *(this->GetName()), *(InPool->GetName()));
+	Pool = InPool;
+}
+
 
 void ATile::PlaceActors(TSubclassOf<AActor> ToSpawn, int MinSpawn, int MaxSpawn, float Radius, float MinScale, float MaxScale) {
 	int NumberToSpawn = FMath::RandRange(MinSpawn, MaxSpawn);

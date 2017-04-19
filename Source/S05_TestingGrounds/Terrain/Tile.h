@@ -5,6 +5,8 @@
 #include "GameFramework/Actor.h"
 #include "Tile.generated.h"
 
+class UActorPool;
+
 UCLASS()
 class S05_TESTINGGROUNDS_API ATile : public AActor
 {
@@ -25,6 +27,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable, Category = "Pool")
+	void SetPool(UActorPool* Pool);
+
 private:
 
 
@@ -34,4 +39,6 @@ private:
 
 	bool CanSpawnAtLocation(FVector Location, float Radius);
 	
+	UActorPool* Pool;
+
 };
