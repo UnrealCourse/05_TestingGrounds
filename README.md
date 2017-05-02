@@ -585,6 +585,3 @@
 + Challenge: Play Two Montages
 
 (Unique Video Reference: 81_TG_URC )
-
----
-Find out more about our [Unreal Engine Developer Course](https://www.udemy.com/unrealcourse/?couponCode=GitHubDiscount).
