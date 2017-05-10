@@ -585,3 +585,10 @@
 + Challenge: Play Two Montages
 
 (Unique Video Reference: 81_TG_URC )
+
+### Section Wrap-Up ###
++ WELL DONE, over 50h of content
++ You've got a great understanding of Unreal
++ Your C++ knowledge is transferrable
++ Improve with: more weapons, pick-ups, progression
++ Please share screenshots / 20s video with community.
