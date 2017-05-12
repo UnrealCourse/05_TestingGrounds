@@ -586,9 +586,205 @@
 
 (Unique Video Reference: 81_TG_URC )
 
-### Section Wrap-Up ###
+### Procedural Level Generation ###
+
++ Importing asset pack.
++ Introduction to procedural terrain.
++ Creating ground mesh from BSP.
++ Challenge: creating spawnable props.
+
+(Unique Video Reference: 82_TG_URC)
+
+### Generating Random Numbers ###
+
++ Create a Tile C++ class.
++ Expose a UFunction to spawn actors.
++ Functions to generate random data.
++ Challenge: generate a random spawn point.
+
+(Unique Video Reference: 83_TG_URC )
+
+### Spawning Actors in the Tile ###
+
++ Spawn an actor.
++ Randomise the number of actors.
++ Challenge: place the actors correctly.
+
+(Unique Video Reference: 84_TG_URC )
+
+### Sphere Casting in C++ ###
+
++ What is a Sweep?
++ How to Sphere Cast in C++.
++ Challenge: visualise the cast.
+
+(Unique Video Reference: 85_TG_URC )
+
+### Configure Custom Trace Channels ###
+
++ Creating a Trace Channel.
++ Where to configure presets. 
++ Challenge: make it trace green.
+
+(Unique Video Reference: 86_TG_URC )
+
+### Spawning into Free Space ###
+
++ Writing an actor spawning algorithm.
++ Challenge: generate empty space.
++ Converting from local to global positions.
+
+(Unique Video Reference: 87_TG_URC )
+
+### Randomising Rotation & Scale ###
+
++ Adding randomised rotation.
++ Challenge: add randomised scale.
++ Tweaking the spawn radii.
+
+(Unique Video Reference: 88_TG_URC )
+
+### Flyweight Pattern for Foliage ###
+
++ Flyweight pattern for rendering
++ Adding LOD for foliage.
++ Challenge: spawn grass instances.
++ Reviewing my code.
++ Configuring my component.
+
+(Unique Video Reference: 89_TG_URC )
+
+### Choosing Waypoint with EQS ###
+
++ Outline of EQS.
++ Enabling EQS.
++ Creating and testing queries.
++ CHALLENGE: Create a Waypoint Query.
+
+(Unique Video Reference: 90_TG_URC )
+
+### Find Actors of Type from C++ ###
+
++ Overviewing the navigation issue.
++ Getting hold of existing objects.
++ CHALLENGE: Finding NavMeshBoundsVolumes
+
+(Unique Video Reference: 91_TG_URC )
+
+### Plumbing an Actor Pool Setup ###
+
++ Actor Pool architecture.
++ Creating the Actor Pool Component.
++ CHALLENGE: Plumb the Pool.
+
+(Unique Video Reference: 92_TG_URC)
+
+### Using the Pool API ###
+
++ Using the Checkout API
++ Overview of object lifecycle
++ CHALLENGE: Return to Pool
++ Populate the initial pool.
+
+(Unique Video Reference: 93_TG_URC)
+
+### Using TArray for Pools ###
+
++ Implementing checkout.
++ Challenge: Implement return and add.
+
+(Unique Video Reference: 94_TG_URC)
+
+### Rebuilding Navigation Meshes ###
+
++ Rebuilding the Navigation.
++ Offset the NavMeshBoundsVolumes.
++ CHALLENGE: Spawn on destroy.
+
+(Unique Video Reference: 95_TG_URC )
+
+### Structs to Simplify Function Args ###
+
++ The AI spawning problem.
++ Combining parameters as structs.
++ CHALLENGE: SpawnPosition Generator Function.
+
+(Unique Video Reference: 96_TG_URC )
+
+### Spawning AI from C++ ###
+
++ How to spawn AI.
++ PlaceAIPawns definition.
++ CHALLENGE: spawn AI in the world.
+
+(Unique Video Reference: 97_TG_URC )
+
+### Keeping Score ###
+
++ Adding a GameMode Score.
++ CHALLENGE: Notify on Tile Conquered
+
+(Unique Video Reference: 98_TG_URC)
+
+### Using the HUD Class ###
+
++ Extending the HUD class
++ Why use the HUD class
++ CHALLENGE: Create the scoring UI
+
+(Unique Video Reference: 99_TG_URC )
+
+### Post Processing for Tunnel Vision ###
+
++ Adding PostProcessing Effects
++ CHALLENGE: Ease in on Damage
+
+(Unique Video Reference: 100_TG_URC )
+
+### Recruiting Play Testers ###
+
++ Sharing your game
++ CHALLENGE: Recruit Some Testers
++ Changing the lighting
++ Firing lasers
++ Improving score UI
++ Shorter blackout effect
+
+(Unique Video Reference: 101_TG_URC)
+
+### Smooth Blending the Camera ###
+
++ Making death easier
++ How the camera works
++ Overview of SetViewTargetWithBlend
++ CHALLENGE: Smooth Blend the Camera
+
+(Unique Video Reference: 102_TG_URC)
+
+### Possessing and the View Target ###
+
++ Unpossing with View Targets
++ Auto managed View Targets
++ CHALLENGE: Manually Manage the View Target
+
+(Unique Video Reference: 103_TG_URC)
+
+### The Calm Before The Storm ###
+
++ Peace before the storm
++ CHALLENGE 1: Fix the crashing issue
++ CHALLENGE 2: Make the Actors spawn
++ Parametrise the enemy count
++ BONUS: Fixing multiple camera transitions
+
+(Unique Video Reference: 104_TG_URC)
+
+### Testing Grounds Wrap-up ###
+
 + WELL DONE, over 50h of content
 + You've got a great understanding of Unreal
 + Your C++ knowledge is transferrable
 + Improve with: more weapons, pick-ups, progression
 + Please share screenshots / 20s video with community.
+
+(Unique Video Reference: XXX_TG_URC )
