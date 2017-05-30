@@ -539,15 +539,11 @@
 + Improved gun-centric architecture
 + Challenge: reinstating the gun actor.
 
-(Unique Video Reference: 76_TG_URC)
-
 ### 77 Converting a Character BP to C++ ###
 
 + Creating and reparenting a character
 + Challenge: Converting the component hierarchy
 + Reviewing my Mannequin.cpp
-
-(Unique Video Reference: 77_TG_URC )
 
 ### 78 Who’s Pulled the Trigger? ###
 
@@ -557,8 +553,6 @@
 + Remove firing from Animation BP
 + Control trigger from AI
 
-(Unique Video Reference: 78_TG_URC)
-
 ### 79 Cooldown Nodes & Gameplay Tags ###
 
 + How cooldown nodes work.
@@ -567,8 +561,6 @@
 + Randomised burst of fire.
 + Separated into sub-behaviour trees.
 
-(Unique Video Reference: 79_TG_URC)
-
 ### 80 Animation Montages and Slots ###
 
 + What is an animation slot?
@@ -576,15 +568,11 @@
 + "Caching" a pose.
 + Challenge: Create and Play Firing Montage
 
-(Unique Video Reference: 80_TG_URC)
-
 ### 81 Reattaching the Gun ###
 
 + Attach gun to correct mesh if player
 + Reattach gun when player dies
 + Challenge: Play Two Montages
-
-(Unique Video Reference: 81_TG_URC )
 
 ### 82 Procedural Level Generation ###
 
@@ -593,8 +581,6 @@
 + Creating ground mesh from BSP.
 + Challenge: creating spawnable props.
 
-(Unique Video Reference: 82_TG_URC)
-
 ### 83 Generating Random Numbers ###
 
 + Create a Tile C++ class.
@@ -602,15 +588,11 @@
 + Functions to generate random data.
 + Challenge: generate a random spawn point.
 
-(Unique Video Reference: 83_TG_URC )
-
 ### 84 Spawning Actors in the Tile ###
 
 + Spawn an actor.
 + Randomise the number of actors.
 + Challenge: place the actors correctly.
-
-(Unique Video Reference: 84_TG_URC )
 
 ### 85 Sphere Casting in C++ ###
 
@@ -618,15 +600,11 @@
 + How to Sphere Cast in C++.
 + Challenge: visualise the cast.
 
-(Unique Video Reference: 85_TG_URC )
-
 ### 86 Configure Custom Trace Channels ###
 
 + Creating a Trace Channel.
 + Where to configure presets. 
 + Challenge: make it trace green.
-
-(Unique Video Reference: 86_TG_URC )
 
 ### 87 Spawning into Free Space ###
 
@@ -634,15 +612,11 @@
 + Challenge: generate empty space.
 + Converting from local to global positions.
 
-(Unique Video Reference: 87_TG_URC )
-
 ### 88 Randomising Rotation & Scale ###
 
 + Adding randomised rotation.
 + Challenge: add randomised scale.
 + Tweaking the spawn radii.
-
-(Unique Video Reference: 88_TG_URC )
 
 ### 89 Flyweight Pattern for Foliage ###
 
@@ -652,8 +626,6 @@
 + Reviewing my code.
 + Configuring my component.
 
-(Unique Video Reference: 89_TG_URC )
-
 ### 90 Choosing Waypoint with EQS ###
 
 + Outline of EQS.
@@ -661,23 +633,17 @@
 + Creating and testing queries.
 + CHALLENGE: Create a Waypoint Query.
 
-(Unique Video Reference: 90_TG_URC )
-
 ### 91 Find Actors of Type from C++ ###
 
 + Overviewing the navigation issue.
 + Getting hold of existing objects.
 + CHALLENGE: Finding NavMeshBoundsVolumes
 
-(Unique Video Reference: 91_TG_URC )
-
 ### 92 Plumbing an Actor Pool Setup ###
 
 + Actor Pool architecture.
 + Creating the Actor Pool Component.
 + CHALLENGE: Plumb the Pool.
-
-(Unique Video Reference: 92_TG_URC)
 
 ### 93 Using the Pool API ###
 
@@ -686,14 +652,10 @@
 + CHALLENGE: Return to Pool
 + Populate the initial pool.
 
-(Unique Video Reference: 93_TG_URC)
-
 ### 94 Using TArray for Pools ###
 
 + Implementing checkout.
 + Challenge: Implement return and add.
-
-(Unique Video Reference: 94_TG_URC)
 
 ### 95 Rebuilding Navigation Meshes ###
 
@@ -701,15 +663,11 @@
 + Offset the NavMeshBoundsVolumes.
 + CHALLENGE: Spawn on destroy.
 
-(Unique Video Reference: 95_TG_URC )
-
 ### 96 Structs to Simplify Function Args ###
 
 + The AI spawning problem.
 + Combining parameters as structs.
 + CHALLENGE: SpawnPosition Generator Function.
-
-(Unique Video Reference: 96_TG_URC )
 
 ### 97 Spawning AI from C++ ###
 
@@ -717,14 +675,10 @@
 + PlaceAIPawns definition.
 + CHALLENGE: spawn AI in the world.
 
-(Unique Video Reference: 97_TG_URC )
-
 ### 98 Keeping Score ###
 
 + Adding a GameMode Score.
 + CHALLENGE: Notify on Tile Conquered
-
-(Unique Video Reference: 98_TG_URC)
 
 ### 99 Using the HUD Class ###
 
@@ -732,14 +686,10 @@
 + Why use the HUD class
 + CHALLENGE: Create the scoring UI
 
-(Unique Video Reference: 99_TG_URC )
-
 ### 100 Post Processing for Tunnel Vision ###
 
 + Adding PostProcessing Effects
 + CHALLENGE: Ease in on Damage
-
-(Unique Video Reference: 100_TG_URC )
 
 ### 101 Recruiting Play Testers ###
 
@@ -750,8 +700,6 @@
 + Improving score UI
 + Shorter blackout effect
 
-(Unique Video Reference: 101_TG_URC)
-
 ### 102 Smooth Blending the Camera ###
 
 + Making death easier
@@ -759,15 +707,11 @@
 + Overview of SetViewTargetWithBlend
 + CHALLENGE: Smooth Blend the Camera
 
-(Unique Video Reference: 102_TG_URC)
-
 ### 103 Possessing and the View Target ###
 
 + Unpossing with View Targets
 + Auto managed View Targets
 + CHALLENGE: Manually Manage the View Target
-
-(Unique Video Reference: 103_TG_URC)
 
 ### 104 The Calm Before The Storm ###
 
@@ -777,8 +721,6 @@
 + Parametrise the enemy count
 + BONUS: Fixing multiple camera transitions
 
-(Unique Video Reference: 104_TG_URC)
-
 ### XXX Testing Grounds Wrap-up ###
 
 + WELL DONE, over 50h of content
@@ -786,5 +728,3 @@
 + Your C++ knowledge is transferrable
 + Improve with: more weapons, pick-ups, progression
 + Please share screenshots / 20s video with community.
-
-(Unique Video Reference: XXX_TG_URC )
