@@ -1,10 +1,10 @@
 ### 1 Testing Grounds Introduction ###
 
 + Welcome, fresh start, new energy
-+ Did you go back and modify Building Escape? 
-+ Most ambitious section yet 
-+ Bookmark the live Google Slides 
-+ Comment on the slides, especially typos 
++ Did you go back and modify Building Escape?
++ Most ambitious section yet
++ Bookmark the live Google Slides
++ Comment on the slides, especially typos
 + Come say hi at [community.gamedev.tv](https://community.gamedev.tv)
 
 ### Code Architecture Storing State ###
@@ -21,24 +21,24 @@
 ### 3 Using Git LFS (Large File Support) ###
 
 + The distinction between Git vs GitHub
-+ Use Unreal’s toolbar & SourceTree 
-+ Enable Git Large File Support (LFS) 
-+ Setup on GitHub (no readme.md or initial commit) 
++ Use Unreal’s toolbar & SourceTree
++ Enable Git Large File Support (LFS)
++ Setup on GitHub (no readme.md or initial commit)
 + Push to GitHub and share
 + Warning: may take a while on slow broadband.
 
 ### 4 Marketing & Markdown ###
 
 + Limitations of Unreal’s connection to GitHub
-+ How to reset to previous commit to combine 
-+ Presenting your public GitHub page well 
++ How to reset to previous commit to combine
++ Presenting your public GitHub page well
 + Using Markdown to enrich formatting.
 
 ### 5 Use git clean to Revert Project ###
 
 + Upgrading my project to Unreal 4.13
-+ An overview of the scene 
-+ How the First Person Character is composed 
++ An overview of the scene
++ How the First Person Character is composed
 + Adding a spiral staircase.
 
 ### 6 First Person Character Overview ###
@@ -48,53 +48,53 @@
 ### 8 The Third Person Character ###
 
 + Add a third person character to the scene
-+ Caution about tidying files at this stage 
++ Caution about tidying files at this stage
 + Add a navmesh, and check it’s continuous.
 
 ### 9 Introducing AI Behaviour Trees ###
 
 + Setup a Blueprint AI controller class
-+ Behaviour Trees controll AI execution flow 
-+ Blackboards hold AI instance data 
-+ How to associate a behaviour tree with an AI 
++ Behaviour Trees controll AI execution flow
++ Blackboards hold AI instance data
++ How to associate a behaviour tree with an AI
 + Testing that our behavior tree is running.
 
 ### 10 Introducing AI Blackboard Data ###
 
 + Blackboard data is like member variables in code
-+ Using blackboard data to set patrol points 
-+ Practice setting blackboard values in Blueprint 
++ Using blackboard data to set patrol points
++ Practice setting blackboard values in Blueprint
 + Test simple AI patrol behaviour.
 
 ### 11 Target Points and Patrol Routes ###
 
 + Add a variable to the NPC’s blueprint
-+ How to make a variable an array in blueprint 
-+ Introducing Target Point actors 
++ How to make a variable an array in blueprint
++ Introducing Target Point actors
 + Using target points to specify patrol routes.
 
 ### 12 Using Any Actor for Waypoints ###
 
 + Actors are more general than target points
-+ How to select an actor from another actor 
-+ Getting the AI Controller to set Blackboard data 
++ How to select an actor from another actor
++ Getting the AI Controller to set Blackboard data
 + Testing our characters go to a set waypoint.
 
 ### 13 Options for Grouping Actors ###
 
 + Use layers (usually used for visibility)
-+ Use groups as a simple multi-select tool 
-+ Use tags, can be flexible but easy to forget 
-+ Use a parent Empty Actor, or a Folder 
-+ Group on game object (e.g. array on NPC) 
++ Use groups as a simple multi-select tool
++ Use tags, can be flexible but easy to forget
++ Use a parent Empty Actor, or a Folder
++ Group on game object (e.g. array on NPC)
 + The key is to know the pros and cons.
 
 ### 14 Blueprint Behaviour Tree Tasks ###
 
 + How to use Blackboard Key Selector variables
-+ Creating new Tasks in Behaviour Trees 
-+ Pseudocode programming in Blueprint 
-+ How to use the Execute AI node 
++ Creating new Tasks in Behaviour Trees
++ Pseudocode programming in Blueprint
++ How to use the Execute AI node
 + How to use the Finish Execute node.
 
 ### 15 Modular Arithmetic & Cycles ###
@@ -104,10 +104,10 @@
 ### 16 Performance Profiling 101 ###
 
 + The first rule of performance: “profile first”
-+ Access profiler from Window > Developer Tools 
-+ Choose Session Front End 
-+ Select your running game session 
-+ Chose Profiler tab, and hit Data Preview 
++ Access profiler from Window > Developer Tools
++ Choose Session Front End
++ Select your running game session
++ Chose Profiler tab, and hit Data Preview
 + Search for your function and double-click.
 
 ### 17 C++ AI Behaviour Tree Tasks ###
@@ -116,7 +116,7 @@
 + Inherit C++ class from **UBTTaskNode**
 + Override **ExecuteTask()**
 + Return **EBTNodeResult::Succeeded;**
-+ Don’t try and extend in Blueprint 
++ Don’t try and extend in Blueprint
 + Use Blueprint XOR C++ for a given task.
 
 ### 18 Reading Blackboard Data in C++ ###
@@ -124,30 +124,30 @@
 + Expose a blackboard key selector in C++
 + **#include “BehaviorTree/BlackboardComponent.h”**
 + **OwnerComp.GetBlackboardComponent()**
-+ Use **GetValueAsInt()** etc to get the value 
++ Use **GetValueAsInt()** etc to get the value
 + You can now access blackboard data in C++.
 
 ### 19 The Consequences of Inheritance ###
 
 + We have coupled our AI ChoseNextWaypoint task to the Third Person Character.
-+ We have also specialised our Blueprint class with a variable, PatrolPoints. 
++ We have also specialised our Blueprint class with a variable, PatrolPoints.
 + These dependencies are undesirable, but we will proceed with our conversion.
 
 ### 20 Converting Blueprint to C++ ###
 
 + **OwnerComp.GetAIOwner()** to get AI Controller
-+ If you’re casting, you’re probably coupling 
++ If you’re casting, you’re probably coupling
 + Use **.Num()** to get number of elements in **TArray**
-+ Use **TODO** for reminders, to help you FOCUS 
++ Use **TODO** for reminders, to help you FOCUS
 + FOCUS = Follow One Course Until Successful.
 
 ### 21 Composition over Inheritance ###
 
 + We created PatrollingGuard by inheritance
-+ How about if we want a patrolling tank? 
-+ Another option is to use an actor component 
-+ This is an age-old debate 
-+ Let’s get some real-world experience of the two 
++ How about if we want a patrolling tank?
++ Another option is to use an actor component
++ This is an age-old debate
++ Let’s get some real-world experience of the two
 + Convert to a component model.
 
 ### 21b Talking Head: What We've Covered So Far ###
@@ -158,65 +158,65 @@
 ### 22 How to Delete a C++ Class ###
 
 + Yes it should be easier than this, tell Epic!
-+ How to remove CPP files from browser in Unreal 
++ How to remove CPP files from browser in Unreal
 + The process for deleting C++ classes.
 
 ### 23 Instanced Materials ###
 
 + Also called Material Instances
-+ These allow modification with little overhead 
++ These allow modification with little overhead
 + How to create an instanced material.
 
 ### 24 Introducing AI Perception ###
 
 + Use AI Perception, it’s newer than Pawn Sensing
-+ How to add AI Perception to your controller 
-+ Use the apostrophe key ‘ to enable AI debug 
++ How to add AI Perception to your controller
++ Use the apostrophe key ‘ to enable AI debug
 + Remember Shift + F1, F8, F11 etc.
 
 ### 25 OnTargetPerceptionUpdated Event ###
 
 + Use the On Target Perception Updated event
-+ This reports the actor sensed 
-+ And the class of the sense (e.g. sight, hearing) 
++ This reports the actor sensed
++ And the class of the sense (e.g. sight, hearing)
 + How to setup perception events.
 
 ### 26 AI Hearing Perception in Unreal ###
 
 + Hearing is a sense that compliments sight
-+ How to set up AI Perception hearing sense 
-+ How to get hearing perception to trigger 
++ How to set up AI Perception hearing sense
++ How to get hearing perception to trigger
 + Making your actor create a noise.
 
 ### 27 The Animation Starter Pack ###
 
 + The skeleton comprises the bones
-+ Over the skeleton lays a skeletal mesh 
-+ Each vertex of the mesh connects to bone(s) 
-+ The animation tells the bones how to move 
-+ The bones tell the mesh how to move 
++ Over the skeleton lays a skeletal mesh
++ Each vertex of the mesh connects to bone(s)
++ The animation tells the bones how to move
++ The bones tell the mesh how to move
 + The Animation BP controls the animations.
 
 ### 28 Changing a Character’s Animation ###
 
 + How to change a mesh’s animation class
-+ Matching the animation’s mesh to… 
-+ … the mesh selected on the character 
-+ You can apply instance changes to blueprint 
-+ However be careful what you take with you 
++ Matching the animation’s mesh to…
++ … the mesh selected on the character
++ You can apply instance changes to blueprint
++ However be careful what you take with you
 + Solving “can’t save… graph is linked” error.
 
 ### 29 Customising a Character Blueprint ###
 
 + You can start with a off-the-shelf blueprint
-+ We can then add our reusable components 
++ We can then add our reusable components
 + Another way of getting our desired character.
 
 ### 30 Sub Behaviour Trees ###
 
 + Behaviour trees can get complex
-+ We want to keep a consistent level of abstraction 
-+ Behaviour trees can run “sub” trees 
++ We want to keep a consistent level of abstraction
++ Behaviour trees can run “sub” trees
 + This helps us organise our project.
 
 ### 31 Talking Head - Introducing Sam ###
@@ -469,22 +469,22 @@
 
 ### 66 Level Gating for Testing Grounds ###
 
-+ Why we need level gating. 
-+ Our approach to gating. 
++ Why we need level gating.
++ Our approach to gating.
 + Enabling/disabling collisions.
 
 ### 67 Swapping Materials in Blueprint ###
 
-+ Creating material instances. 
-+ Exposing material parameters. 
-+ Swapping materials in blueprint. 
++ Creating material instances.
++ Exposing material parameters.
++ Swapping materials in blueprint.
 + Adding affordance to our barriers.
 
 ### 68 Garbage Collecting Previous Tiles ###
 
-+ When to delete previous tiles. 
-+ How to get hold of the Game Mode. 
-+ Spawning new tiles when needed. 
++ When to delete previous tiles.
++ How to get hold of the Game Mode.
++ Spawning new tiles when needed.
 + Keeping the minimal tiles in memory.
 
 ### 69 Merging Our TP and FP Files ###
@@ -603,7 +603,7 @@
 ### 86 Configure Custom Trace Channels ###
 
 + Creating a Trace Channel.
-+ Where to configure presets. 
++ Where to configure presets.
 + Challenge: make it trace green.
 
 ### 87 Spawning into Free Space ###
@@ -679,6 +679,17 @@
 
 + Adding a GameMode Score.
 + CHALLENGE: Notify on Tile Conquered
+
+### 98b Understanding Function Templates ###
+
++ What is a template.
++ When would you use one?
++ What is the syntax for functions.
+
+### 98c Template Specialization ###
+
++ When copy and paste isn’t enough.
++ How to handle tricky types.
 
 ### 99 Using the HUD Class ###
 
