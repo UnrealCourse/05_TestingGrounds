@@ -691,6 +691,13 @@
 + When copy and paste isn’t enough.
 + How to handle tricky types.
 
+### 98d Fixing Double Spawning ###
+
++ Fixing out spawn issue.
++ When static polymorphism isn't enough.
++ How to use templates in classes.
++ Caveats to using templates in C++
+
 ### 99 Using the HUD Class ###
 
 + Extending the HUD class
