@@ -1,3 +1,5 @@
+Unfortunately **we can't accept Pull Requests** as they will not end up in the course.
+
 ### 1 Testing Grounds Introduction ###
 
 + Welcome, fresh start, new energy
