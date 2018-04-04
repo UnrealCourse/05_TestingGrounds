@@ -5,21 +5,9 @@ using System.Collections.Generic;
 
 public class S05_TestingGroundsEditorTarget : TargetRules
 {
-	public S05_TestingGroundsEditorTarget(TargetInfo Target)
+	public S05_TestingGroundsEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-	}
-
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.Add("S05_TestingGrounds");
+		ExtraModuleNames.Add("S05_TestingGrounds");
 	}
 }
